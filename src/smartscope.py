@@ -1108,7 +1108,7 @@ class ContentBuilder:
         box.set_margin_start(16); box.set_margin_end(16)
         box.set_margin_top(4);    box.set_margin_bottom(4)
         box.get_style_context().add_class("md-card")
-        box.pack_start(self._card_header("⚠  NVMe Critical Warning"), False, False, 0)
+        box.pack_start(self._card_header(" NVMe Critical Warning"), False, False, 0)
         box.pack_start(divider(), False, False, 0)
         for b in bits:
             vw = chip("ACTIVE", "red")
