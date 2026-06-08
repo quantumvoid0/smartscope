@@ -13,7 +13,7 @@ sudo chmod +x /usr/bin/smartscope
 
 ## Uninstallation
 ```
-sudo rm /usr/bin/smartscope.py
+sudo rm /usr/bin/smartscope
 ```
 
 ## Usage
