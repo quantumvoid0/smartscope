@@ -8,6 +8,7 @@ A python gtk3 wrapper for S.M.A.R.T
 ```
 git clone https://github.com/quantumvoid0/smartscope
 sudo cp smartscope/src/smartscope.py /usr/bin/smartscope
+sudo chmod +x /usr/bin/smartscope
 ```
 
 ## Uninstallation

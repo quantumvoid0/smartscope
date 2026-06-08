@@ -284,7 +284,10 @@ def run_smartctl(device, password=None):
         return data, r.returncode
 
     def _ok(data, code):
-        return data is not None and "device" in data and not (code & 0x02)
+        return (data is not None 
+                and "device" in data 
+                and "smart_status" in data
+                and not (code & 0x02))
 
     base = ["smartctl", "-ax", device, "--json=o"]
     try:
